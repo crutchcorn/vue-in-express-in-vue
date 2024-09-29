@@ -1,8 +1,11 @@
 import { createApp } from "./renderer";
 import App from "./App.vue";
 import exitHook from 'exit-hook';
+import {provideStoreToApp} from "@reduxjs/vue-redux";
+import {store} from "../public/store";
 
 const app = createApp(App);
+provideStoreToApp(app, {store})
 app.mount();
 
 // Keep the process alive until we tell it to stop

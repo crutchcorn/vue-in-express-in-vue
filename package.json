@@ -10,17 +10,17 @@
     "format": "yarn lint --fix"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "@reduxjs/vue-redux": "^0.1.0",
     "@vue/runtime-core": "^3.2.31",
     "@vueuse/core": "^11.1.0",
     "exit-hook": "^4.0.0",
     "express": "^4.21.0",
-    "node-cleanup": "^2.1.2",
     "vue": "^3.5.10"
   },
   "devDependencies": {
     "@babel/types": "^7.17.0",
     "@types/node": "^22.7.4",
-    "@types/node-cleanup": "^2.1.2",
     "@vitejs/plugin-vue": "^5.1.4",
     "typescript": "^5.6.2",
     "vite": "^5.4.8",

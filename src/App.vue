@@ -2,11 +2,13 @@
 import {
   ExpressProvider,
 } from "./components/router";
-import ExpressRoutes from "./routes/ExpressRoutes.vue";
+import RootRoutes from "./routes/RootRoutes.vue";
+import APIRoutes from "./routes/APIRoutes.vue";
 </script>
 
 <template>
   <ExpressProvider :port="8080">
-    <ExpressRoutes />
+    <RootRoutes />
+    <APIRoutes />
   </ExpressProvider>
 </template>
