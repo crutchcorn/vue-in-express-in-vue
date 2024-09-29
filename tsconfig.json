@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"rootDir": ".",
+		"lib": ["dom", "es2020"],
+		"jsx": "preserve",
+		"types": ["node", "vite/client"],
+		"baseUrl": ".",
+		"sourceMap": false,
+		"outDir": "dist",
+		"skipLibCheck": true,
+	}
+}
